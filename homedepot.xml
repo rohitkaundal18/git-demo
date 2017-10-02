@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true" thread-count="3">
+ 
+  
+    <test name="2Test" >
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="researchAnddeveloper.Google"/>
+    </classes>
+  </test> 
+  
+    <test name="3Test" >
+  <parameter name="browser" value="ff"></parameter>
+    <classes>
+      <class name="researchAnddeveloper.Google"/>
+    </classes>
+  </test> 
+  
+  <test name="1Test" >
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="researchAnddeveloper.Google"/>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->
